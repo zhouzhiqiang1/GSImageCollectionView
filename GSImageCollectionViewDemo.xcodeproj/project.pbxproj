@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F08B2B329BC6D4E2D3812D /* libPods-GSImageCollectionViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8426260E62EED4442C7AC71 /* libPods-GSImageCollectionViewDemo.a */; };
+		DDF1844F1E6FFBD200CB2CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF1844E1E6FFBD200CB2CA0 /* main.m */; };
+		DDF184521E6FFBD200CB2CA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184511E6FFBD200CB2CA0 /* AppDelegate.m */; };
+		DDF184551E6FFBD200CB2CA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184541E6FFBD200CB2CA0 /* ViewController.m */; };
+		DDF184581E6FFBD200CB2CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF184561E6FFBD200CB2CA0 /* Main.storyboard */; };
+		DDF1845A1E6FFBD200CB2CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF184591E6FFBD200CB2CA0 /* Assets.xcassets */; };
+		DDF1845D1E6FFBD200CB2CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF1845B1E6FFBD200CB2CA0 /* LaunchScreen.storyboard */; };
+		DDF184681E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184671E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.m */; };
+		DDF184731E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184721E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.m */; };
+		DDF184BC1E7003F700CB2CA0 /* GSImagePreview.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDF184BA1E7003F700CB2CA0 /* GSImagePreview.bundle */; };
+		DDF184BD1E7003F700CB2CA0 /* GSImagePreview.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDF184BB1E7003F700CB2CA0 /* GSImagePreview.strings */; };
+		DDF184C71E70040A00CB2CA0 /* GSImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184BF1E70040A00CB2CA0 /* GSImageCollectionViewController.m */; };
+		DDF184C81E70040A00CB2CA0 /* GSImageCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF184C01E70040A00CB2CA0 /* GSImageCollectionViewController.xib */; };
+		DDF184C91E70040A00CB2CA0 /* GSImagePreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184C21E70040A00CB2CA0 /* GSImagePreviewCell.m */; };
+		DDF184CA1E70040A00CB2CA0 /* UIImage+Bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184C41E70040A00CB2CA0 /* UIImage+Bundle.m */; };
+		DDF184CB1E70040A00CB2CA0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF184C61E70040A00CB2CA0 /* UINavigationController+FDFullscreenPopGesture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF184641E6FFBD200CB2CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF184421E6FFBD200CB2CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF184491E6FFBD200CB2CA0;
+			remoteInfo = GSImageCollectionViewDemo;
+		};
+		DDF1846F1E6FFBD200CB2CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF184421E6FFBD200CB2CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF184491E6FFBD200CB2CA0;
+			remoteInfo = GSImageCollectionViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23698B4741EB8682D7D69153 /* Pods-GSImageCollectionViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSImageCollectionViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSImageCollectionViewDemo/Pods-GSImageCollectionViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B8426260E62EED4442C7AC71 /* libPods-GSImageCollectionViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GSImageCollectionViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF1844A1E6FFBD200CB2CA0 /* GSImageCollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSImageCollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF1844E1E6FFBD200CB2CA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDF184501E6FFBD200CB2CA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDF184511E6FFBD200CB2CA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDF184531E6FFBD200CB2CA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDF184541E6FFBD200CB2CA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDF184571E6FFBD200CB2CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF184591E6FFBD200CB2CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF1845C1E6FFBD200CB2CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF1845E1E6FFBD200CB2CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF184631E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSImageCollectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF184671E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSImageCollectionViewDemoTests.m; sourceTree = "<group>"; };
+		DDF184691E6FFBD200CB2CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF1846E1E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSImageCollectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF184721E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSImageCollectionViewDemoUITests.m; sourceTree = "<group>"; };
+		DDF184741E6FFBD200CB2CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF184BA1E7003F700CB2CA0 /* GSImagePreview.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GSImagePreview.bundle; path = GSImageCollectionView/Resources/GSImagePreview.bundle; sourceTree = "<group>"; };
+		DDF184BB1E7003F700CB2CA0 /* GSImagePreview.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = GSImagePreview.strings; path = GSImageCollectionView/Resources/GSImagePreview.strings; sourceTree = "<group>"; };
+		DDF184BE1E70040A00CB2CA0 /* GSImageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSImageCollectionViewController.h; path = GSImageCollectionView/GSImageCollectionViewController.h; sourceTree = "<group>"; };
+		DDF184BF1E70040A00CB2CA0 /* GSImageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSImageCollectionViewController.m; path = GSImageCollectionView/GSImageCollectionViewController.m; sourceTree = "<group>"; };
+		DDF184C01E70040A00CB2CA0 /* GSImageCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GSImageCollectionViewController.xib; path = GSImageCollectionView/GSImageCollectionViewController.xib; sourceTree = "<group>"; };
+		DDF184C11E70040A00CB2CA0 /* GSImagePreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GSImagePreviewCell.h; path = GSImageCollectionView/GSImagePreviewCell.h; sourceTree = "<group>"; };
+		DDF184C21E70040A00CB2CA0 /* GSImagePreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GSImagePreviewCell.m; path = GSImageCollectionView/GSImagePreviewCell.m; sourceTree = "<group>"; };
+		DDF184C31E70040A00CB2CA0 /* UIImage+Bundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Bundle.h"; path = "GSImageCollectionView/UIImage+Bundle.h"; sourceTree = "<group>"; };
+		DDF184C41E70040A00CB2CA0 /* UIImage+Bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Bundle.m"; path = "GSImageCollectionView/UIImage+Bundle.m"; sourceTree = "<group>"; };
+		DDF184C51E70040A00CB2CA0 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "GSImageCollectionView/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		DDF184C61E70040A00CB2CA0 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "GSImageCollectionView/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		DF2230E95A866933209492E7 /* Pods-GSImageCollectionViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSImageCollectionViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSImageCollectionViewDemo/Pods-GSImageCollectionViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF184471E6FFBD200CB2CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F08B2B329BC6D4E2D3812D /* libPods-GSImageCollectionViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF184601E6FFBD200CB2CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF1846B1E6FFBD200CB2CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46524D76F4BA57889B94996E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23698B4741EB8682D7D69153 /* Pods-GSImageCollectionViewDemo.debug.xcconfig */,
+				DF2230E95A866933209492E7 /* Pods-GSImageCollectionViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7015E68D3430C6C2E3FCD0B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8426260E62EED4442C7AC71 /* libPods-GSImageCollectionViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF184411E6FFBD200CB2CA0 = {
+			isa = PBXGroup;
+			children = (
+				DDF184961E7002AC00CB2CA0 /* GSImageCollectionView */,
+				DDF1844C1E6FFBD200CB2CA0 /* GSImageCollectionViewDemo */,
+				DDF184661E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests */,
+				DDF184711E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests */,
+				DDF1844B1E6FFBD200CB2CA0 /* Products */,
+				46524D76F4BA57889B94996E /* Pods */,
+				7015E68D3430C6C2E3FCD0B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF1844B1E6FFBD200CB2CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF1844A1E6FFBD200CB2CA0 /* GSImageCollectionViewDemo.app */,
+				DDF184631E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.xctest */,
+				DDF1846E1E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF1844C1E6FFBD200CB2CA0 /* GSImageCollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DDF184501E6FFBD200CB2CA0 /* AppDelegate.h */,
+				DDF184511E6FFBD200CB2CA0 /* AppDelegate.m */,
+				DDF184531E6FFBD200CB2CA0 /* ViewController.h */,
+				DDF184541E6FFBD200CB2CA0 /* ViewController.m */,
+				DDF184561E6FFBD200CB2CA0 /* Main.storyboard */,
+				DDF184591E6FFBD200CB2CA0 /* Assets.xcassets */,
+				DDF1845B1E6FFBD200CB2CA0 /* LaunchScreen.storyboard */,
+				DDF1845E1E6FFBD200CB2CA0 /* Info.plist */,
+				DDF1844D1E6FFBD200CB2CA0 /* Supporting Files */,
+			);
+			path = GSImageCollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		DDF1844D1E6FFBD200CB2CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDF1844E1E6FFBD200CB2CA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDF184661E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF184671E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.m */,
+				DDF184691E6FFBD200CB2CA0 /* Info.plist */,
+			);
+			path = GSImageCollectionViewDemoTests;
+			sourceTree = "<group>";
+		};
+		DDF184711E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF184721E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.m */,
+				DDF184741E6FFBD200CB2CA0 /* Info.plist */,
+			);
+			path = GSImageCollectionViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		DDF184961E7002AC00CB2CA0 /* GSImageCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DDF184BE1E70040A00CB2CA0 /* GSImageCollectionViewController.h */,
+				DDF184BF1E70040A00CB2CA0 /* GSImageCollectionViewController.m */,
+				DDF184C01E70040A00CB2CA0 /* GSImageCollectionViewController.xib */,
+				DDF184C11E70040A00CB2CA0 /* GSImagePreviewCell.h */,
+				DDF184C21E70040A00CB2CA0 /* GSImagePreviewCell.m */,
+				DDF184C31E70040A00CB2CA0 /* UIImage+Bundle.h */,
+				DDF184C41E70040A00CB2CA0 /* UIImage+Bundle.m */,
+				DDF184C51E70040A00CB2CA0 /* UINavigationController+FDFullscreenPopGesture.h */,
+				DDF184C61E70040A00CB2CA0 /* UINavigationController+FDFullscreenPopGesture.m */,
+				DDF184B21E70034600CB2CA0 /* Resources */,
+			);
+			name = GSImageCollectionView;
+			sourceTree = "<group>";
+		};
+		DDF184B21E70034600CB2CA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDF184BA1E7003F700CB2CA0 /* GSImagePreview.bundle */,
+				DDF184BB1E7003F700CB2CA0 /* GSImagePreview.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF184491E6FFBD200CB2CA0 /* GSImageCollectionViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF184771E6FFBD200CB2CA0 /* Build configuration list for PBXNativeTarget "GSImageCollectionViewDemo" */;
+			buildPhases = (
+				4DA248DF1FED079B70F9AF9C /* [CP] Check Pods Manifest.lock */,
+				DDF184461E6FFBD200CB2CA0 /* Sources */,
+				DDF184471E6FFBD200CB2CA0 /* Frameworks */,
+				DDF184481E6FFBD200CB2CA0 /* Resources */,
+				737ECE07689585120B574648 /* [CP] Embed Pods Frameworks */,
+				6648D9E4F24303E09F7B2D64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSImageCollectionViewDemo;
+			productName = GSImageCollectionViewDemo;
+			productReference = DDF1844A1E6FFBD200CB2CA0 /* GSImageCollectionViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF184621E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF1847A1E6FFBD200CB2CA0 /* Build configuration list for PBXNativeTarget "GSImageCollectionViewDemoTests" */;
+			buildPhases = (
+				DDF1845F1E6FFBD200CB2CA0 /* Sources */,
+				DDF184601E6FFBD200CB2CA0 /* Frameworks */,
+				DDF184611E6FFBD200CB2CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF184651E6FFBD200CB2CA0 /* PBXTargetDependency */,
+			);
+			name = GSImageCollectionViewDemoTests;
+			productName = GSImageCollectionViewDemoTests;
+			productReference = DDF184631E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF1846D1E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF1847D1E6FFBD200CB2CA0 /* Build configuration list for PBXNativeTarget "GSImageCollectionViewDemoUITests" */;
+			buildPhases = (
+				DDF1846A1E6FFBD200CB2CA0 /* Sources */,
+				DDF1846B1E6FFBD200CB2CA0 /* Frameworks */,
+				DDF1846C1E6FFBD200CB2CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF184701E6FFBD200CB2CA0 /* PBXTargetDependency */,
+			);
+			name = GSImageCollectionViewDemoUITests;
+			productName = GSImageCollectionViewDemoUITests;
+			productReference = DDF1846E1E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF184421E6FFBD200CB2CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = R_zhou;
+				TargetAttributes = {
+					DDF184491E6FFBD200CB2CA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DDF184621E6FFBD200CB2CA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDF184491E6FFBD200CB2CA0;
+					};
+					DDF1846D1E6FFBD200CB2CA0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DDF184491E6FFBD200CB2CA0;
+					};
+				};
+			};
+			buildConfigurationList = DDF184451E6FFBD200CB2CA0 /* Build configuration list for PBXProject "GSImageCollectionViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF184411E6FFBD200CB2CA0;
+			productRefGroup = DDF1844B1E6FFBD200CB2CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF184491E6FFBD200CB2CA0 /* GSImageCollectionViewDemo */,
+				DDF184621E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests */,
+				DDF1846D1E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF184481E6FFBD200CB2CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF184BD1E7003F700CB2CA0 /* GSImagePreview.strings in Resources */,
+				DDF184BC1E7003F700CB2CA0 /* GSImagePreview.bundle in Resources */,
+				DDF1845D1E6FFBD200CB2CA0 /* LaunchScreen.storyboard in Resources */,
+				DDF1845A1E6FFBD200CB2CA0 /* Assets.xcassets in Resources */,
+				DDF184C81E70040A00CB2CA0 /* GSImageCollectionViewController.xib in Resources */,
+				DDF184581E6FFBD200CB2CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF184611E6FFBD200CB2CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF1846C1E6FFBD200CB2CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DA248DF1FED079B70F9AF9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6648D9E4F24303E09F7B2D64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSImageCollectionViewDemo/Pods-GSImageCollectionViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737ECE07689585120B574648 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSImageCollectionViewDemo/Pods-GSImageCollectionViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF184461E6FFBD200CB2CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF184C71E70040A00CB2CA0 /* GSImageCollectionViewController.m in Sources */,
+				DDF184551E6FFBD200CB2CA0 /* ViewController.m in Sources */,
+				DDF184521E6FFBD200CB2CA0 /* AppDelegate.m in Sources */,
+				DDF184C91E70040A00CB2CA0 /* GSImagePreviewCell.m in Sources */,
+				DDF1844F1E6FFBD200CB2CA0 /* main.m in Sources */,
+				DDF184CB1E70040A00CB2CA0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				DDF184CA1E70040A00CB2CA0 /* UIImage+Bundle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF1845F1E6FFBD200CB2CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF184681E6FFBD200CB2CA0 /* GSImageCollectionViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF1846A1E6FFBD200CB2CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF184731E6FFBD200CB2CA0 /* GSImageCollectionViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF184651E6FFBD200CB2CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF184491E6FFBD200CB2CA0 /* GSImageCollectionViewDemo */;
+			targetProxy = DDF184641E6FFBD200CB2CA0 /* PBXContainerItemProxy */;
+		};
+		DDF184701E6FFBD200CB2CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF184491E6FFBD200CB2CA0 /* GSImageCollectionViewDemo */;
+			targetProxy = DDF1846F1E6FFBD200CB2CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF184561E6FFBD200CB2CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF184571E6FFBD200CB2CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF1845B1E6FFBD200CB2CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF1845C1E6FFBD200CB2CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF184751E6FFBD200CB2CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDF184761E6FFBD200CB2CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF184781E6FFBD200CB2CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23698B4741EB8682D7D69153 /* Pods-GSImageCollectionViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GSImageCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouzhiqiang.GSImageCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF184791E6FFBD200CB2CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF2230E95A866933209492E7 /* Pods-GSImageCollectionViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GSImageCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouzhiqiang.GSImageCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDF1847B1E6FFBD200CB2CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GSImageCollectionViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouzhiqiang.GSImageCollectionViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSImageCollectionViewDemo.app/GSImageCollectionViewDemo";
+			};
+			name = Debug;
+		};
+		DDF1847C1E6FFBD200CB2CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GSImageCollectionViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouzhiqiang.GSImageCollectionViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSImageCollectionViewDemo.app/GSImageCollectionViewDemo";
+			};
+			name = Release;
+		};
+		DDF1847E1E6FFBD200CB2CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GSImageCollectionViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouzhiqiang.GSImageCollectionViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GSImageCollectionViewDemo;
+			};
+			name = Debug;
+		};
+		DDF1847F1E6FFBD200CB2CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GSImageCollectionViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhouzhiqiang.GSImageCollectionViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GSImageCollectionViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF184451E6FFBD200CB2CA0 /* Build configuration list for PBXProject "GSImageCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF184751E6FFBD200CB2CA0 /* Debug */,
+				DDF184761E6FFBD200CB2CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF184771E6FFBD200CB2CA0 /* Build configuration list for PBXNativeTarget "GSImageCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF184781E6FFBD200CB2CA0 /* Debug */,
+				DDF184791E6FFBD200CB2CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF1847A1E6FFBD200CB2CA0 /* Build configuration list for PBXNativeTarget "GSImageCollectionViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF1847B1E6FFBD200CB2CA0 /* Debug */,
+				DDF1847C1E6FFBD200CB2CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF1847D1E6FFBD200CB2CA0 /* Build configuration list for PBXNativeTarget "GSImageCollectionViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF1847E1E6FFBD200CB2CA0 /* Debug */,
+				DDF1847F1E6FFBD200CB2CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF184421E6FFBD200CB2CA0 /* Project object */;
+}

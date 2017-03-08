@@ -1,0 +1,9 @@
+/* 
+  GSImagePreview.strings
+  GSImagePreview
+
+  Created by R_zhou on 15/9/17.
+  Copyright (c) 2015年 R_zhou. All rights reserved.
+*/
+"Save failed!" = "保存失败!";
+"Save success!" = "保存成功!";
