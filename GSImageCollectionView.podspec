@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/zhouzhiqiang1/GSImageCollectionView.git", :tag => s.version }
 
-  s.source_files  = "GSImageCollectionView//**/*.{h,m,xib}"
+  s.source_files  = "GSImageCollectionView/**/*.{h,m,xib}"
 
   s.resources = "GSImageCollectionView/Resources/GSImagePreview.bundle/**/*.png" 
   
